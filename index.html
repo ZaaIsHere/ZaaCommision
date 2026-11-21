@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Zaa Store — Joki GT, Reverse 1999 &amp; 3D VRoid</title>
+  <title>Zaa Store — 3D VRoid Commission</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -15,8 +15,6 @@
       --border: #232838;
       --text: #f1f5f9;
       --muted: #94a3b8;
-      --gt-accent: #f59e0b;      /* Emas/Amber untuk Guardian Tales */
-      --r1999-accent: #10b981;   /* Hijau Vintage untuk Reverse 1999 */
       --vroid-accent: #38bdf8;   /* Biru Cyan untuk 3D VRoid */
       --wa-color: #22c55e;
     }
@@ -84,14 +82,12 @@
       transition: transform 0.15s, border-color 0.2s;
     }
     .pill:hover { transform: translateY(-2px); }
-    .pill.gt:hover { border-color: var(--gt-accent); color: var(--gt-accent); }
-    .pill.r1999:hover { border-color: var(--r1999-accent); color: var(--r1999-accent); }
     .pill.vroid:hover { border-color: var(--vroid-accent); color: var(--vroid-accent); }
 
     /* Banner Preview 3 Layanan */
     .showcase-grid {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(1, 1fr);
       gap: 12px;
       margin-bottom: 48px;
     }
@@ -164,8 +160,6 @@
       padding-right: 14px;
       width: 95px;
     }
-    .price-gt { color: var(--gt-accent); }
-    .price-r1999 { color: var(--r1999-accent); }
     .price-vroid { color: var(--vroid-accent); }
 
     td.action { text-align: right; width: 82px; }
@@ -352,7 +346,7 @@
   <div class="container">
     <!-- TOPBAR -->
     <div class="topbar">
-      <div class="brand">nizar<span>store</span></div>
+      <div class="brand">Zaa<span>Commission</span></div>
       <div class="socials">
         <a href="https://wa.me/6289602679903" target="_blank" rel="noopener">WhatsApp</a>
         <a href="https://tiktok.com/@nizareditz20" target="_blank" rel="noopener">TikTok</a>
@@ -366,27 +360,17 @@
         <span class="badge">Fast Respon</span>
         <span class="badge">Custom 3D VTuber</span>
       </div>
-      <h1>Joki Guardian Tales, Reverse: 1999 &amp; Commission 3D Model VRoid.</h1>
+      <h1>Oen Commission 3D Model VRoid.</h1>
       <p>Tinggal pilih paket layanan di bawah, klik tombol pesan, dan langsung terhubung ke WhatsApp dengan format order otomatis.</p>
 
       <div class="nav-pills">
-        <a href="#guardian-tales" class="pill gt">Guardian Tales</a>
-        <a href="#reverse-1999" class="pill r1999">Reverse: 1999</a>
         <a href="#vroid-3d" class="pill vroid">3D Model VRoid</a>
       </div>
 
       <!-- 3 Kartu Cover -->
       <div class="showcase-grid">
-        <a href="#guardian-tales" class="showcase-item">
-          <img src="assets/GuardianTales.webp" alt="Joki Guardian Tales">
-          <figcaption>Guardian Tales</figcaption>
-        </a>
-        <a href="#reverse-1999" class="showcase-item">
-          <img src="assets/Reverse1999.webp" alt="Joki Reverse 1999">
-          <figcaption>Reverse: 1999</figcaption>
-        </a>
         <a href="#vroid-3d" class="showcase-item">
-          <img src="assets/VroidStudio.webp" alt="Commission 3D VRoid">
+          <img src="assets/vroidstudio.webp" alt="Commission 3D VRoid">
           <figcaption>3D Model VRoid</figcaption>
         </a>
       </div>
@@ -402,7 +386,7 @@
     <input 
       type="text" 
       id="search-input" 
-      placeholder="Cari layanan... (contoh: World 10, Limbo, Rawat Akun, Hair)" 
+      placeholder="Cari layanan..." 
       autocomplete="off"
     >
     <button type="button" id="clear-search" aria-label="Hapus pencarian">&times;</button>
@@ -417,123 +401,11 @@
   </a>
 </div>
 
-    <!-- ==================== 1. GUARDIAN TALES ==================== -->
-    <section id="guardian-tales" class="section">
-      <div class="section-header">
-        <h2><span class="dot" style="background: var(--gt-accent);"></span> Joki Guardian Tales</h2>
-        <p>Semua pengerjaan dilakukan manual tanpa script/cheat · Harga dalam Rupiah (IDR)</p>
-      </div>
-
-      <div class="card">
-        <div class="card-title">
-          <h3>Story &amp; Eksplorasi World</h3>
-          <span>Clear stage, Star Piece &amp; Purple Coin</span>
-        </div>
-        <table>
-          <tr>
-            <td>World 1 – World 9 <span class="item-desc">Per world (Speedrun)</span></td>
-            <td class="price price-gt">5k</td>
-            <td class="action"><a class="btn-order" href="https://wa.me/6289602679903?text=Halo%20admin%2C%20mau%20order%20Joki%20GT%20World%201-9%20(Speedrun)" target="_blank">Pesan</a></td>
-          </tr>
-          <tr>
-            <td>World 10 – World 13 <span class="item-desc">Per world (Speedrun)</span></td>
-            <td class="price price-gt">8k</td>
-            <td class="action"><a class="btn-order" href="https://wa.me/6289602679903?text=Halo%20admin%2C%20mau%20order%20Joki%20GT%20World%2010-13%20(Speedrun)" target="_blank">Pesan</a></td>
-          </tr>
-          <tr>
-            <td>World 14 – 18 <span class="item-desc">Per world (Speedrun)</span></td>
-            <td class="price price-gt">18k</td>
-            <td class="action"><a class="btn-order" href="https://wa.me/6289602679903?text=Halo%20admin%2C%20mau%20order%20Joki%20GT%20World%2014-18%20(Speedrun)" target="_blank">Pesan</a></td>
-          </tr>
-          <tr>
-            <td>Nightmare Mode <span class="item-desc">Per world</span></td>
-            <td class="price price-gt">9k</td>
-            <td class="action"><a class="btn-order" href="https://wa.me/6289602679903?text=Halo%20admin%2C%20mau%20order%20Joki%20GT%20Nightmare%20Mode%20" target="_blank">Pesan</a></td>
-          </tr>
-        </table>
-      </div>
-
-      <div class="card">
-        <div class="card-title">
-          <h3>Rawat Akun &amp; Endgame</h3>
-          <span>Colosseum, Guild Raid &amp; Daily</span>
-        </div>
-        <table>
-          <tr>
-            <td>Rawat Akun Mingguan <span class="item-desc">Habiskan stamina, daily quest, colosseum &amp; not compe</span></td>
-            <td class="price price-gt">14k</td>
-            <td class="action"><a class="btn-order" href="https://wa.me/6289602679903?text=Halo%20admin%2C%20mau%20order%20Rawat%20Akun%20GT%201%20Minggu%20(25k)" target="_blank">Pesan</a></td>
-          </tr>
-          <tr>
-            <td>Rawat Akun Bulanan <span class="item-desc">Full 30 hari + klaim semua event aktif &amp; not compe</span></td>
-            <td class="price price-gt">60k</td>
-            <td class="action"><a class="btn-order" href="https://wa.me/6289602679903?text=Halo%20admin%2C%20mau%20order%20Rawat%20Akun%20GT%201%20Bulan%20(85k)" target="_blank">Pesan</a></td>
-          </tr>
-          <tr>
-            <td>Setup Tim Raid / Boss Rush <span class="item-desc">Susun equipment, card &amp; preset elemen</span></td>
-            <td class="price price-gt">15k</td>
-            <td class="action"><a class="btn-order" href="https://wa.me/6289602679903?text=Halo%20admin%2C%20mau%20order%20Setup%20Tim%20Raid%20GT%20(15k)" target="_blank">Pesan</a></td>
-          </tr>
-        </table>
-      </div>
-    </section>
-
-    <!-- ==================== 2. REVERSE: 1999 ==================== -->
-    <section id="reverse-1999" class="section">
-      <div class="section-header">
-        <h2><span class="dot" style="background: var(--r1999-accent);"></span> Joki Reverse: 1999</h2>
-        <p>Main Story, Event, Limbo &amp; Rawat Akun Harian</p>
-      </div>
-
-      <div class="card">
-        <div class="card-title">
-          <h3>Story &amp; Event</h3>
-          <span>Main chapter &amp; limited event</span>
-        </div>
-        <table>
-          <tr>
-            <td>Main Story <span class="item-desc">Per chapter (Normal &amp; Hard)</span></td>
-            <td class="price price-r1999">10k</td>
-            <td class="action"><a class="btn-order" href="https://wa.me/6289602679903?text=Halo%20admin%2C%20mau%20order%20Joki%20Main%20Story%20Reverse%201999%20(10k)" target="_blank">Pesan</a></td>
-          </tr>
-          <tr>
-            <td>Event Story + Shop Clear <span class="item-desc">Selesaikan stage event &amp; farming currency toko</span></td>
-            <td class="price price-r1999">15k</td>
-            <td class="action"><a class="btn-order" href="https://wa.me/6289602679903?text=Halo%20admin%2C%20mau%20order%20Joki%20Event%20(15k)" target="_blank">Pesan</a></td>
-          </tr>
-          <tr>
-            <td>Artificial Somnambulism / Limbo <span class="item-desc">Full clear sesuai kapasitas resonansi karakter</span></td>
-            <td class="price price-r1999">20k</td>
-            <td class="action"><a class="btn-order" href="https://wa.me/6289602679903?text=Halo%20admin%2C%20mau%20order%20Joki%20Limbo%20(20k)" target="_blank">Pesan</a></td>
-          </tr>
-        </table>
-      </div>
-
-      <div class="card">
-        <div class="card-title">
-          <h3>Rawat Akun (Cellular Activity)</h3>
-          <span>Farming insight, psychube &amp; wilderness</span>
-        </div>
-        <table>
-          <tr>
-            <td>Rawat Akun 1 Minggu <span class="item-desc">Habiskan stamina buat daily &amp; weekly task</span></td>
-            <td class="price price-r1999">14k</td>
-            <td class="action"><a class="btn-order" href="https://wa.me/6289602679903?text=Halo%20admin%2C%20mau%20order%20Rawat%20Akun%20R1999%201%20Minggu%20(14k)" target="_blank">Pesan</a></td>
-          </tr>
-          <tr>
-            <td>Rawat Akun 1 Bulan <span class="item-desc">Full 30 hari + Pneuma Analysis &amp; Jukebox mission</span></td>
-            <td class="price price-r1999">60k</td>
-            <td class="action"><a class="btn-order" href="https://wa.me/6289602679903?text=Halo%20admin%2C%20mau%20order%20Rawat%20Akun%20R1999%201%20Bulan%20(60k)" target="_blank">Pesan</a></td>
-          </tr>
-        </table>
-      </div>
-    </section>
-
     <!-- ==================== 3. COMMISSION 3D MODEL VROID ==================== -->
     <section id="vroid-3d" class="section">
       <div class="section-header">
         <h2><span class="dot" style="background: var(--vroid-accent);"></span> Commission 3D Model VRoid</h2>
-        <p>File akhir format .VRM siap pakai untuk VSeeFace, Warudo, VTube Studio &amp; Animaze</p>
+        <p>File akhir format .VRM siap pakai untuk VSeeFace, Warudo, &amp; Animaze</p>
       </div>
 
       <div class="card">
@@ -543,19 +415,14 @@
         </div>
         <table>
           <tr>
-            <td>Paket Starter (Half / Basic) <span class="item-desc">Custom rambut, wajah, warna mata + outfit modifikasi preset</span></td>
+            <td>Paket Starter (Basic) <span class="item-desc">Custom rambut, wajah, warna mata + outfit modifikasi preset</span></td>
             <td class="price price-vroid">150k</td>
             <td class="action"><a class="btn-order" href="https://wa.me/628960267993?text=Halo%20admin%2C%20mau%20order%20Commission%20VRoid%20Paket%20Starter%20(150k)" target="_blank">Pesan</a></td>
           </tr>
           <tr>
-            <td>Paket Full Custom VTuber <span class="item-desc">Custom hair mesh, hand-painted texture baju &amp; mata, bounce physics</span></td>
+            <td>Paket Full Custom <span class="item-desc">Custom hair mesh, hand-painted texture baju &amp; mata, bounce physics</span></td>
             <td class="price price-vroid">300k</td>
             <td class="action"><a class="btn-order" href="https://wa.me/6289602679903?text=Halo%20admin%2C%20mau%20order%20Commission%20VRoid%20Full%20Custom%20(300k)" target="_blank">Pesan</a></td>
-          </tr>
-          <tr>
-            <td>Paket Commercial / Debut <span class="item-desc">Full custom + 5 ekspresi tambahan + file mentah (.vroid &amp; .vrm)</span></td>
-            <td class="price price-vroid">450k</td>
-            <td class="action"><a class="btn-order" href="https://wa.me/6289602679903?text=Halo%20admin%2C%20mau%20order%20Commission%20VRoid%20Paket%20Debut%20(450k)" target="_blank">Pesan</a></td>
           </tr>
         </table>
       </div>
@@ -586,13 +453,13 @@
           <span>Geser untuk melihat contoh karya</span>
         </div>
         <div class="slider-box">
-          <div class="slide active" data-title="VTuber Model — Custom Hair & Outfit">
+          <div class="slide active" data-title="VTuber Model">
             <img src="assets/vroid-sample-1.webp" alt="Sample VRoid 1">
           </div>
-          <div class="slide" data-title="Chibi / Casual Avatar — Cel Shading">
+          <div class="slide" data-title="Custom Hair & Outfit">
             <img src="assets/vroid-sample-2.webp" alt="Sample VRoid 2">
           </div>
-          <div class="slide" data-title="Fantasy Character — Custom Accessories">
+          <div class="slide" data-title="Custom Accessories">
             <img src="assets/vroid-sample-3.webp" alt="Sample VRoid 3">
           </div>
           <div class="slider-footer">
@@ -610,14 +477,14 @@
     <!-- CUSTOM ORDER CTA -->
     <div class="cta-box">
       <h3>Butuh Request Khusus?</h3>
-      <p>Mau joki stage tertentu atau punya referensi karakter 3D yang kompleks? Diskusikan dulu lewat WhatsApp.</p>
+      <p>Mau punya Model 3D yang kompleks? Diskusikan dulu lewat WhatsApp yaa.</p>
       <a class="btn-cta" href="https://wa.me/6289602679903?text=Halo%20admin%2C%20saya%20mau%20tanya%20custom%20order" target="_blank" rel="noopener">
         CHAT KONSULTASI / CUSTOM ORDER
       </a>
     </div>
 
     <footer>
-      <p><strong>ZaaStore</strong> — Joki Game &amp; 3D VRoid Studio</p>
+      <p><strong>ZaaStore</strong> — Commission 3D VRoid</p>
       <p style="margin-top: 4px;">Pembayaran: QRIS · DANA · GoPay · Bank</p>
     </footer>
   </div>
